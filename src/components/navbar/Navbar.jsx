@@ -100,7 +100,7 @@ function Navbar() {
           </li>
           {user && (
             <li className={`${styles.myAccount} nav-item`}>
-              <Link to={`/myaccount`} className={`${styles.customNavLink} nav-link`}>
+              <Link to={`/myaccount_details`} className={`${styles.customNavLink} nav-link`}>
                 My account
               </Link>
             </li>
